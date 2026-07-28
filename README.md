@@ -1,5 +1,11 @@
 # Deploy a Static Website on AWS
 
+## CloudFront Domain URL
+https://d25hp13vx3saon.cloudfront.net
+
+## S3 Website Endpoint URL
+http://pushpam-static-website-2026.s3-website.eu-north-1.amazonaws.com
+
 ## Project Overview
 The cloud is perfect for hosting static websites that only include HTML, CSS, and JavaScript files that require no server-side processing. In this project, I deployed a static website to AWS. First, I created an S3 bucket, configured it for static website hosting, and secured it using IAM policies. Next, I uploaded the website files to the bucket and sped up content delivery using CloudFront. Finally, I accessed the website in a browser using the endpoint URL.
 
