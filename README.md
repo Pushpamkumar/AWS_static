@@ -42,19 +42,19 @@ The main goal of this project is to:
    - If needed, append /index.html to the URL.
 
 ## Screenshots
-Below are the key screenshots used to illustrate the deployment process:
+Below are the key screenshots from this project:
 
-![S3 Bucket Creation](https://github.com/MrinmoiHossain/Deploy-a-Static-Website-on-AWS/blob/master/demo_pic_of_the_site/S3_Bucket_Create.jpg)
+![S3 Bucket Creation](bucket.png)
 
-![Website Content in S3 Bucket](https://github.com/MrinmoiHossain/Deploy-a-Static-Website-on-AWS/blob/master/demo_pic_of_the_site/Website_content_in_S3_bucket.jpg)
+![Bucket Policy Configuration](bucketPolicy.png)
 
-![Bucket Policy Configuration](https://github.com/MrinmoiHossain/Deploy-a-Static-Website-on-AWS/blob/master/demo_pic_of_the_site/Bucket_policy.jpg)
+![Static Website Hosting Setup](S3_bucket_static_web_hosting.png)
 
-![Static Website Hosting Setup](https://github.com/MrinmoiHossain/Deploy-a-Static-Website-on-AWS/blob/master/demo_pic_of_the_site/Static_website.jpg)
+![Website Objects Uploaded to S3](objects.png)
 
-![CloudFront Distribution Setup](https://github.com/MrinmoiHossain/Deploy-a-Static-Website-on-AWS/blob/master/demo_pic_of_the_site/Cloudfront_site.jpg)
+![CloudFront Distribution Setup](cloudfrontDistribution.png)
 
-![Website Accessed Through CloudFront](https://github.com/MrinmoiHossain/Deploy-a-Static-Website-on-AWS/blob/master/demo_pic_of_the_site/Website_using_cloudfront.jpg)
+![Website Preview](website.png)
 
 ## Result
 This project successfully demonstrates how to host a static website on AWS using S3 and CloudFront. The website becomes publicly accessible and benefits from improved content delivery performance.
@@ -65,4 +65,4 @@ This project successfully demonstrates how to host a static website on AWS using
 - Proper bucket policies and permissions are essential for secure public hosting.
 
 ## Author
-Mrinmoi Hossain
+Pushpam Kumar
